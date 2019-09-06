@@ -1,0 +1,1 @@
+dir .\Falcon /b/s /a:-d > assetlist.txt
