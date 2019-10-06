@@ -2,9 +2,6 @@
 
 Work in progress plugin for spawning items. 
 
-**Contact me at Discord (InfinateXtremer#0301) or find me at Mod the Dragon Server for bug reports or *more correct* way to spawn items.**
-Mod the Dragon Server Link:https://discord.gg/Yy4SMkn
-
 
 ## Usage 
 
