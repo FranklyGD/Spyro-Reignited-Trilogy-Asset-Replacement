@@ -1,3 +1,0 @@
-If you haven't found where it is, it is located at:
-
-<Epic Game Installed Folder>\UE_4.19\Engine\Binaries\Win64\UnrealPak.exe
