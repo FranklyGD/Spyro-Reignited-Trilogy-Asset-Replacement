@@ -1,0 +1,6 @@
+.md-typeset table:not([class]) {
+    font-size: .8rem;
+}
+[data-md-color-scheme="slate"] {
+--md-text-link-color: hsla(180, 62.7%, 53.7%, 1);
+}
