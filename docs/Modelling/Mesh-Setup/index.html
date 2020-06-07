@@ -652,12 +652,20 @@
 <ul>
 <li>First things first make sure your armature name is <code>Armature</code> mind the capital A.</li>
 <li>Having more than one mesh seems to cause fatal error crashes in the game, make sure you merge your meshes before exporting.</li>
-<li>If you are planning on entire skeleton replacement make sure bone names are exactly named like how they are in Reignited, otherwise your game is going to crash.</li>
 <li><a href="https://docs.unrealengine.com/en-US/Engine/Animation/AnimHowTo/AdditiveAnimations/index.html">Additive</a> animations cannot be exported from Umodel and they need to be remade from scratch.</li>
+</ul>
+<h2 id="skeleton-replacement">Skeleton Replacement</h2>
+<p>If you're planning on replacing the skeleton itself as well as the model follow the guidelines below to have crash and bug free replacement:</p>
+<ul>
+<li>
+<p>Make sure bone names are exactly named like how they are in Reignited. Some bones are used by animation blueprints and if said bones cannot be found game will crash.</p>
+</li>
+<li>
+<p>Some models needs <a href="../Socket-Names/">sockets</a> to work correctly, for example Spyro's breath comes out from a socket attached to the head bone. </p>
+</li>
 </ul>
 <h1 id="materials-for-meshes">Materials For Meshes</h1>
 <p>Some materials are special that they have <a href="../Special-Materials/">parameters which are modified at run-time</a>  or are usually not loaded by default and swapped in later by an in-game event. Similar to any other asset, before cooking just make sure the name of the file is the same as how you found it in Umodel Viewer. </p>
-<p>If </p>
                 
               
               
