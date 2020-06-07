@@ -264,18 +264,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Common-Info/Blueprint-Infos/" title="Blueprint Information" class="md-nav__link">
-      Blueprint Information
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../Common-Info/Unreal-Reignited-Glossary/" title="Unreal Engine Glossary" class="md-nav__link">
       Unreal Engine Glossary
     </a>
@@ -462,7 +450,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Texture-Infos.md" title="Texture Information" class="md-nav__link">
+    <a href="../../Textures/Texture-Infos/" title="Texture Information" class="md-nav__link">
       Texture Information
     </a>
   </li>
@@ -637,6 +625,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../Community-Made-Tools/" title="Community Made Tools" class="md-nav__link">
+      Community Made Tools
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../../Troubleshooting/" title="Troubleshooting" class="md-nav__link">
       Troubleshooting
     </a>
@@ -703,13 +703,13 @@
 <li>Some actors like water needs special setup in blueprints in order to work properly.</li>
 </ol>
 <h1 id="creating-a-dummy-enemy-blueprint">Creating A Dummy Enemy Blueprint:</h1>
-<p><strong>Create a plugin for the actor you want to spawn</strong>. In my example I’m going to spawn <strong>CES1016_Shepherd</strong>. You can use <strong>UE Viewer aka UModel</strong> to locate your <strong>folder</strong> and <strong>blueprint</strong> names.
-<img alt="" src="https://github.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/blob/master/Wiki%20Images/umodel-folder-blueprint.png?raw=true" /></p>
+<p><strong>Create a plugin for the actor you want to spawn</strong>. In my example I’m going to spawn <strong>CES1016_Shepherd</strong>. You can use <strong>UE Viewer aka UModel</strong> to locate your <strong>folder</strong> and <strong>blueprint</strong> names.</p>
+<p><img alt="image-20200607044719238" src="../assets/umodelfolder.png" /></p>
 <p>Replicate the folder structure on your <strong>Unreal project</strong> by creating a new <strong>plugin</strong> and <strong>Blueprints</strong> folder inside the newly created plugin
 Inside your <strong>Blueprints</strong> folder create an <strong>Actor</strong> Blueprint Class. Name it the blueprint name you saw on <strong>Umodel</strong></p>
 <h1 id="creating-spawner">Creating Spawner:</h1>
 <p>Now go to your <strong>Content</strong> folder and create a new <strong>Actor</strong> Blueprint Class. Name it whatever you want. Double click on it to open BP editor and copy the blueprint setup from the image below. 
-<img alt="" src="https://github.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/blob/master/Wiki%20Images/spawner-blueprint-setup.png?raw=true" /></p>
+<img alt="" src="../assets/spawner_blueprint_setup.pnv" /></p>
 <p>For <strong>Pawn Class</strong> select the dummy <strong>Actor</strong> blueprint you created in my case it’s <strong>BP_CES1016_Shepherd</strong>. Use GetActorLocation<strong> for location and </strong>GetActorRotation** for rotation.</p>
 <p><strong>Compile</strong> and <strong>Save</strong> the blueprint</p>
 <h1 id="spawning-your-actor">Spawning Your Actor:</h1>

@@ -332,18 +332,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../Blueprint-Infos/" title="Blueprint Information" class="md-nav__link">
-      Blueprint Information
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../Unreal-Reignited-Glossary/" title="Unreal Engine Glossary" class="md-nav__link">
       Unreal Engine Glossary
     </a>
@@ -530,7 +518,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Texture-Infos.md" title="Texture Information" class="md-nav__link">
+    <a href="../../Textures/Texture-Infos/" title="Texture Information" class="md-nav__link">
       Texture Information
     </a>
   </li>
@@ -661,6 +649,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../Community-Made-Tools/" title="Community Made Tools" class="md-nav__link">
+      Community Made Tools
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../../Troubleshooting/" title="Troubleshooting" class="md-nav__link">
       Troubleshooting
     </a>
@@ -748,25 +748,25 @@
 <p><strong>Take note of all the paths of files you want to modify so that you  can mimic it in your Unreal Mod project. </strong></p>
 <h2 id="identifying-a-plugin">Identifying a plugin</h2>
 <p>Plugins in <em>Spyro: Reignited Trilogy</em> are easily identified by the directory that only contains one sub-folder named <code>Content</code><br />
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/plugin%20identification.png" /></p>
+<img alt="" src="../assets/plugin_identification.png" /></p>
 <h2 id="creating-the-plugin">Creating the plugin</h2>
 <p>In the Unreal Editor, you will need to create a plugin. To do so, go to Edit &gt; Plugins.<br />
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/plugin%20dowpdown-menu.png" /></p>
+<img alt="" src="../assets/plugin_dowpdown-menu.png" /></p>
 <p>Click on "New Plugin".<br />
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/new%20plugin.png" /></p>
+<img alt="" src="../assets/new_plugin.png" /></p>
 <p>Select "Content Only Plugin". Name it to how you see it in the viewer, for example if it is in <code>CPS1999_Spyro</code>, name it that. After that, hit "Create Plugin".<br />
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/create%20plugin.png" /></p>
+<img alt="" src="../assets/create_plugin.png" /></p>
 <h2 id="making-your-plugin-visible-in-the-editor">Making Your Plugin Visible In The Editor</h2>
 <p>Now with your plugin created you need to enable some options to see it in the <strong>Content Browser</strong> </p>
 <p>Open <strong>View Options</strong> and <strong>Enable Show Plugin Content</strong></p>
-<p><img alt="image-20200602181829714" src="\assets\editor\show-plugins.png" /></p>
+<p><img alt="image-20200602181829714" src="../assets/show-plugins.png" /></p>
 <p>and enable <strong>Sources Panel</strong> as well.</p>
-<p><img alt="image-20200602183013297" src="\assets\editor\sources-panel.png" /></p>
+<p><img alt="image-20200602183013297" src="../assets/sources-panel.png" /></p>
 <h2 id="naming-your-assets">Naming Your Assets</h2>
 <p>When you import your asset you will notice there will be generated asset files in Unreal Engine Editor's content browser, make sure they are named <strong>exactly</strong> like the ones you are going to replace in the viewer. So if you see in the viewer <code>SK_CPS1999_Spyro.uasset</code>, name in the Unreal Engine Editor should be <code>SK_CPS1999_Spyro</code>.</p>
 <p>Majority of the pattern is <code>file-name.uasset</code> seen in Umodel Viewer to Unreal Engine Editor <code>file-name</code> of the appropriate asset type.</p>
 <p>If you are replacing materials, viewer should show them in a sub-folder named <code>Materials</code>. This means in the plugin, you should have the same <code>Materials</code> folder as well if you plan on replacing the material. This method is same for other resources.<br />
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/mimic%20folders.png" /></p>
+<img alt="" src="../assets/mimic_folders.png" /></p>
                 
               
               

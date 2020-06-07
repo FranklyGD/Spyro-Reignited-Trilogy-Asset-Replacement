@@ -4,3 +4,7 @@
 [data-md-color-scheme="slate"] {
 --md-text-link-color: hsla(180, 62.7%, 53.7%, 1);
 }
+
+.md-grid {
+    max-width: 80rem;
+}

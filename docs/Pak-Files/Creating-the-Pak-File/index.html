@@ -264,18 +264,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Common-Info/Blueprint-Infos/" title="Blueprint Information" class="md-nav__link">
-      Blueprint Information
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../Common-Info/Unreal-Reignited-Glossary/" title="Unreal Engine Glossary" class="md-nav__link">
       Unreal Engine Glossary
     </a>
@@ -371,12 +359,25 @@
     Using u4pak Method (New, Faster)
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Using u4pak Method (New, Faster)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#using-unrealpak-method-old-slower" class="md-nav__link">
     Using UnrealPak Method (Old, Slower)
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-below-is-not-recommended-and-only-here-for-archiving-purposes" class="md-nav__link">
+    Method below is not recommended and only here for archiving purposes.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -513,7 +514,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Texture-Infos.md" title="Texture Information" class="md-nav__link">
+    <a href="../../Textures/Texture-Infos/" title="Texture Information" class="md-nav__link">
       Texture Information
     </a>
   </li>
@@ -644,6 +645,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../Community-Made-Tools/" title="Community Made Tools" class="md-nav__link">
+      Community Made Tools
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../../Troubleshooting/" title="Troubleshooting" class="md-nav__link">
       Troubleshooting
     </a>
@@ -680,12 +693,25 @@
     Using u4pak Method (New, Faster)
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Using u4pak Method (New, Faster)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#using-unrealpak-method-old-slower" class="md-nav__link">
     Using UnrealPak Method (Old, Slower)
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-below-is-not-recommended-and-only-here-for-archiving-purposes" class="md-nav__link">
+    Method below is not recommended and only here for archiving purposes.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -711,17 +737,17 @@
 <p>If you're doing sound or localization changes skip this step as they don't involve Unreal Engine 4.</p>
 </div>
 <p>Go to File &gt; Cook Content For Windows.<br />
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/cooking%20option.png" /></p>
+<img alt="" src="../assets/cooking_option.png" /></p>
 <p>When that is done, head to this location:<br />
 <code>&lt;Project&gt;\Saved\Cooked\WindowsNoEditor\&lt;Project-Name-Again&gt;\</code></p>
 <p>Copy or cut out the folder and move it into a workspace. In your workspace, you need to recreate the file structure seen in the viewer, starting from Falcon.<br />
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/mimic%20structure.png" /></p>
+<img alt="" src="../assets/mimic_structure.png" /></p>
 <p>At this point you can choose between the two methods.</p>
 <h2 id="using-u4pak-method-new-faster">Using u4pak Method (New, Faster)</h2>
 <p>Download the <a href="https://github.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/releases/tag/fp1.0"><code>u4pak.exe</code> and <code>u4pak.cmd</code></a> files from releases of this repo and place it in your workspace folder. Simply run the <code>u4pak.cmd</code> and you should see the <code>.pak</code> files get created.</p>
 <p>Folder structure in u4pak should match the one in Reignited. If you already forgot refer back to <a href="../../Common-Info/Replicating-the-Game-Structure/">replicating the game structure.</a> </p>
-<h2 id="using-unrealpak-method-old-slower">Using UnrealPak Method (Old, Slower)</h2>
-<p><strong>Method below is not recommended and only here for archiving purposes.</strong></p>
+<h4 id="using-unrealpak-method-old-slower">Using UnrealPak Method (Old, Slower)</h4>
+<h3 id="method-below-is-not-recommended-and-only-here-for-archiving-purposes"><strong>Method below is not recommended and only here for archiving purposes.</strong></h3>
 <p>You need the <code>UnrealPak.exe</code> from the installed Unreal Engine.<br />
 You can locate it in:<br />
 <code>&lt;Epic Game Installed Folder&gt;\UE_4.19\Engine\Binaries\Win64\unrealpak.exe</code>  </p>
@@ -733,7 +759,7 @@ You can locate it in:<br />
 - Replace: <code>..\..\..\Falcon</code>
 - Replace all</p>
 <p>Here is an example in VSCode:
-<img alt="" src="https://raw.githubusercontent.com/FranklyGD/Spyro-Reignited-Trilogy-Asset-Replacement/master/Wiki%20Images/assetlist.txt%20find-replace.png" /></p>
+<img alt="" src="../assets/assetlist.txt_find_replace.png" /></p>
 <p>Run <code>pack.cmd</code>, a file <code>pakchunk3-WindowsNoEditor.pak</code> should be generated in the folder. If the size of the file shows to have 1 Kb, then it most likely didn't work and you must check your <code>assetlist.txt</code> and go over what went wrong.</p>
 <p>Next Step: <a href="Verifying-and-Applying-the-Mod">Verifying and Applying the Mod</a></p>
                 
