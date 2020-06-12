@@ -8,3 +8,8 @@
 .md-grid {
     max-width: 80rem;
 }
+
+.md-typeset__table {
+
+--md-default-bg-color: #323443;
+}
