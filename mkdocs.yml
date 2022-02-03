@@ -1,0 +1,62 @@
+site_name: Mod the Dragon Wiki
+
+theme:
+  name: material
+  collapse_by_default: true
+  logo: images/Logo.ico
+  favicon: images/favicon.ico
+
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+    
+nav:
+    - Main Page: index.md
+    - Discord Server: https://discord.gg/z3BbjANWCz
+    - Preparing For Modding: 
+        - Introduction To Modding: Preparing-Modding/introduction.md
+        - Umodel Usage: Preparing-Modding/umodel.md
+        - Unreal Engine Installation: Preparing-Modding/unreal.md
+        - Modding Tools: Preparing-Modding/modding-tools.md
+        - Replicating Game Structure In Unreal Editor: Preparing-Modding/Replicating-the-Game-Structure-Unreal.md
+    - Replacing Assets:
+        - Modelling:
+            - Mesh Setup And Info: Replacing-Files/Modelling/Mesh-Setup.md
+            - Import-Export Settings: Replacing-Files/Modelling/Import-Export-Settings.md
+            - Socket Names: Replacing-Files/Modelling/Socket-Names.md
+        - Textures And Materials:
+            - Special Materials: Replacing-Files/Textures-Materials/Special-Materials.md
+            - Replacing Textures: Replacing-Files/Replacing-Textures.md
+        - Level Creation:
+            - Introduction To Level Creation: Level-Making/1-Introduction-To-Level-Making.md
+            - How to make a level: Level-Making/2-Lighting-Fog-Meshes.md
+            - How to spawn actors: Level-Making/3-Spawning-Actors-In-Custom-Levels.md
+            - Blueprint Information: Level-Making/Blueprint-Info.md
+        - In-Game Text: Replacing-Files/Replacing-Localization-Files.md
+        - Sound Files: Replacing-Files/Replacing-Sounds.md
+    - Pak Files:
+        - Cooking Unreal Files: Pak-Files/Cooking-Unreal-Files.md
+        - Pak File Creation and Replicating Game Structure In U4PAK: Pak-Files/Replicating-the-Game-Structure-U4Pak.md
+        - Extracting Pak Files: Pak-Files/Extracting-Pak-Files.md
+    - Resources: 
+        - File Locations: Resources/Common-File-Locations.md
+        - Console Commands: Resources/List-of-Console-Commands.md
+        - Unreal Engine Glossary: Resources/Unreal-Reignited-Glossary.md
+        - Sound Index: https://docs.google.com/spreadsheets/d/1GpFxvt7E2eYGw-9fZ7xk63wQ89TdLnQDB2QbTzdaaZo/edit#gid=1427572063
+        - UI Color Themes: https://docs.google.com/spreadsheets/d/1WEbsT3aZGtSfP7GEhXb21MHHb-sxLrr7SmKP2-8jrEw/edit?usp=sharing
+        - Models:
+            - Elora Asset Swap Workspace: https://github.com/Magic-Nipples/SRT-Workspace_Elora-Asset-Swap        
+    - Community Made Tools:
+        - Community Made Tools: Community-Made-Tools.md
+    - Troubleshooting:
+        - Troubleshooting: Troubleshooting.md
+    - Installing Mods: 
+        - Mod Managers: Installing-Mods/Mod-Manager.md
+        - Manually Installing Mods: Installing-Mods/Manual-Install.md    
+        
+        
