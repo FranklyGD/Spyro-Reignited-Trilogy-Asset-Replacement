@@ -12,11 +12,19 @@ Suffixes:
 * `_ORM` is a composite map consisting of  Ambient Occlusion, roughness and metallic on RGB channels respectively.  
 * `_Body_Mask` is the mask used in most emissive (power up) textures  
 
-| Texture Suffix | Red Channel Purpose | Green Channel Purpose | Blue Channel Purpose | Alpha Channel Purpose |
-| -------------- | ------------------- | --------------------- | -------------------- | --------------------- |
-| _ARME          | Ambient Occlusion   | Roughness             | Metallic             | Emission              |
-| _ORM           | Ambient Occlusion   | Roughness             | Metallic             | N/A                   |
-| _RMSE          | Roughness           | Metallic              | Speculars            | Emission              |
+| Texture Suffix | Red Channel Purpose | Green Channel Purpose | Blue Channel Purpose | Alpha Channel Purpose | Texture Group      | Compression Setting |
+| -------------- | ------------------- | --------------------- | -------------------- | --------------------- | ------------------ | ------------------- |
+| _C             |                     |                       |                      |                       | Character          |                     |
+| _F             |                     |                       |                      |                       | CharacterSpecular  |                     |
+| _M             |                     |                       |                      |                       | CharacterSpecular  | Grayscale           |
+| _Mask          |                     |                       |                      |                       | CharacterSpecular  | Grayscale           |
+| _N             |                     |                       |                      |                       | CharacterNormalMap | Normalmap           |
+| _R             |                     |                       |                      |                       | CharacterSpecular  | Grayscale           |
+| _T             |                     |                       |                      |                       | CharacterSpecular  |                     |
+| _E             |                     |                       |                      |                       | CharacterSpecular  |                     |
+| _ARME          | Ambient Occlusion   | Roughness             | Metallic             | Emission              | CharacterSpecular  |                     |
+| _ORM           | Ambient Occlusion   | Roughness             | Metallic             | N/A                   |                    |                     |
+| _RMSE          | Roughness           | Metallic              | Speculars            | Emission              | Masks              |                     |
 
 
 ## Meshes

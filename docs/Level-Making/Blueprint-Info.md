@@ -13,9 +13,39 @@ Collision object requires `Wall.Climb` component tag combined with `ClimbTrigger
 | TerrainType.SlideOff        | Sliding down from a platform rotating                        |
 | TerrainType.SlideOff.Belly  | Sliding down from a platform on his belly                    |
 | Crash                       | Crashes Skateboard? Unsure                                   |
-| LaunchRamp (Actor Tag)      |                                                              |
-| LaunchRamp_302_001          |                                                              |
-| LaunchRamp_302_004          |                                                              |
+
+
+
+## Ramp Tags
+
+### Ramp Types: [Basic]
+Use these ramp types if you just want a quick working ramp without any specifics.
+
+|          Actor Tag          | Jump Impulse<br />How far you will be thrown | Angle<br />How the ramp is angled | Height<br />Max height you can reach with this ramp |                           Comment                            |
+| :-------------------------: | :------------------------------------------: | :-------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------: |
+|         LaunchRamp          |                     200                      |                30                 |                         50                          |         Regular ramp type with average launch speed.         |
+| LaunchRamp_LS312_FlatGround |                    217.5                     |                 0                 |                         50                          | Flat ramp, Small boost pad when jumping. [Enchanted Towers]  |
+| LaunchRamp_LS320_FlatGround |                     270                      |                 0                 |                         50                          | Gives slightly more boost then "LaunchRamp_LS312_FlatGround". [Lost Fleet] |
+|       LaunchRamp_Low        |                     100                      |                30                 |                         50                          |               Low sized ramp for short jumps.                |
+|       LaunchRamp_Med        |                     200                      |                30                 |                         100                         |             Average sized ramp for normal jumps.             |
+|      LaunchRamp_Large       |                     400                      |                40                 |                         150                         |          Large sized ramp for making longer jumps.           |
+|       LaunchRamp_Uber       |                     1500                     |                50                 |                         500                         |  Extreme Uber sized ramp for making jumps across the world   |
+|     LaunchRamp_302_001      |                     325                      |                30                 |                         25                          |                    Specific: Sunny Villa                     |
+|     LaunchRamp_302_003      |                     250                      |                45                 |                          0                          |                    Specific: Sunny Villa                     |
+|     LaunchRamp_302_004      |                     400                      |                50                 |                          0                          |                    Specific: Sunny Villa                     |
+|     LaunchRamp_302_005      |                     250                      |                45                 |                          0                          |                    Specific: Sunny Villa                     |
+|     LaunchRamp_302_006      |                     400                      |                60                 |                          0                          |                    Specific: Sunny Villa                     |
+|     LaunchRamp_302_007      |                     250                      |                50                 |                          0                          |                    Specific: Sunny Villa                     |
+|     LaunchRamp_302_008      |                     400                      |                75                 |                          0                          |                    Specific: Sunny Villa                     |
+|     LaunchRamp_LS312_01     |                    217.5                     |               37.5                |                         50                          |                  Specific: Enchanted Towers                  |
+|     LaunchRamp_LS312_02     |                     400                      |               62.5                |                         50                          |                  Specific: Enchanted Towers                  |
+|     LaunchRamp_LS312_04     |                    217.5                     |               37.5                |                         50                          |                  Specific: Enchanted Towers                  |
+|     LaunchRamp_LS312_05     |                    217.5                     |               37.5                |                         50                          |                  Specific: Enchanted Towers                  |
+|  LaunchRamp_LS312_SkiJump   |                    217.5                     |               37.5                |                         50                          | Blue launch ramp in enchanted towers that gives you a lot of air time to do tricks, Pressing jump will put you into a spinning state, Not jumping will launch you |
+|  LaunchRamp_LS320_Default   |                     270                      |                45                 |                         50                          |                  Specific: Lost Fleet Ramp                   |
+
+
+
 
 ## Gameplay Effects
 
