@@ -18,9 +18,6 @@ Collision object requires `Wall.Climb` component tag combined with `ClimbTrigger
 
 ## Ramp Tags
 
-### Ramp Types: [Basic]
-Use these ramp types if you just want a quick working ramp without any specifics.
-
 |          Actor Tag          | Jump Impulse<br />How far you will be thrown | Angle<br />How the ramp is angled | Height<br />Max height you can reach with this ramp |                           Comment                            |
 | :-------------------------: | :------------------------------------------: | :-------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------: |
 |         LaunchRamp          |                     200                      |                30                 |                         50                          |         Regular ramp type with average launch speed.         |
@@ -44,7 +41,9 @@ Use these ramp types if you just want a quick working ramp without any specifics
 |  LaunchRamp_LS312_SkiJump   |                    217.5                     |               37.5                |                         50                          | Blue launch ramp in enchanted towers that gives you a lot of air time to do tricks, Pressing jump will put you into a spinning state, Not jumping will launch you |
 |  LaunchRamp_LS320_Default   |                     270                      |                45                 |                         50                          |                  Specific: Lost Fleet Ramp                   |
 
+### Ramp Types Showcase
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GJxEMD7rJ9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Gameplay Effects
